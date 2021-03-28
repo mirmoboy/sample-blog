@@ -51,6 +51,11 @@ const post = ({ post: _post }) => {
             /images/blog-medium.jpg 1000w,
             /images/blog-large.jpeg 1500w
           '
+          width='728'
+          height='481'
+          layout="responsive"
+          loading='lazy'
+          alt='SampleImage'
         />
         <p className="antialiased text-pink-400 text-sm md:text-xl mt-5">{body}</p>
         <div>
