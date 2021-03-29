@@ -1,9 +1,12 @@
 User-agent: *
-Disallow: /_next/static/chunks/
-Disallow: /_next/static/pages/
+Disallow: /_next/*
+Disallow: /_next/static/chunks/*
+Disallow: /_next/static/pages/*
 
-# Host
+noindex: /_next/*
+noindex: /_next/static/chunks/*
+noindex: /_next/static/pages/*
+
 Host: https://dev-aans.netlify.app
 
-# Sitemaps
 Sitemap: https://dev-aans.netlify.app/sitemap.xml
