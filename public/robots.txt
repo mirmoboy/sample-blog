@@ -1,2 +1,8 @@
 User-agent: *
-Disallow:
+Disallow: /_next/
+
+# Host
+Host: https://dev-aans.netlify.app
+
+# Sitemaps
+Sitemap: https://dev-aans.netlify.app/sitemap.xml
