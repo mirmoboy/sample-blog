@@ -18,9 +18,7 @@ const PostList = ({ posts }) => (
               `}
               key={id}
             >
-              <h4 className='font-semibold text-md md:text-xl mb-2'>
-                <a href={`/post/${cleanUrl({ id, title })}`}>{title}</a>  
-              </h4>
+              <h4 className='font-semibold text-md md:text-xl mb-2'>{title}</h4>
               <p className='text-justify text-sm md:text-md'>{body}</p>
             </div>
           </Link>
