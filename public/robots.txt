@@ -1,5 +1,6 @@
 User-agent: *
-Disallow: /_next/static/
+Disallow: /_next/static/chunks/
+Disallow: /_next/static/pages/
 
 # Host
 Host: https://dev-aans.netlify.app
