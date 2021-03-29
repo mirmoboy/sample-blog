@@ -1,11 +1,10 @@
-User-agent: *
-Disallow: /_next/*
+User-agent: Googlebot
+Disallow: /_next/static/*
 Disallow: /_next/static/chunks/*
 Disallow: /_next/static/pages/*
 
-noindex: /_next/*
-noindex: /_next/static/chunks/*
-noindex: /_next/static/pages/*
+User-agent: *
+Allow: /
 
 Host: https://dev-aans.netlify.app
 
